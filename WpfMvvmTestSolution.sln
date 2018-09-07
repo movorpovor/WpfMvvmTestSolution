@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfMvvmTestProject", "WpfMvvmTestSolution\WpfMvvmTestProject.csproj", "{96989FAA-848E-47D3-8F59-51A6DFCE5716}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGenericLinkedList", "MyGenericLinkedList\MyGenericLinkedList.csproj", "{DC214DDF-AA09-42ED-90B2-89D744ADFD36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96989FAA-848E-47D3-8F59-51A6DFCE5716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96989FAA-848E-47D3-8F59-51A6DFCE5716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96989FAA-848E-47D3-8F59-51A6DFCE5716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96989FAA-848E-47D3-8F59-51A6DFCE5716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC214DDF-AA09-42ED-90B2-89D744ADFD36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC214DDF-AA09-42ED-90B2-89D744ADFD36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC214DDF-AA09-42ED-90B2-89D744ADFD36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC214DDF-AA09-42ED-90B2-89D744ADFD36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {360E31FF-F47C-49AD-99AF-43DF9C45C7B9}
+	EndGlobalSection
+EndGlobal
