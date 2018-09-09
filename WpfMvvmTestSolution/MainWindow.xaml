@@ -29,17 +29,7 @@
                 </StackPanel>
             </Border>
             <local:GlowButton Content="Random" Command="{Binding GenerateStringListCommand}"/>
-            <local:GlowButton Content="Previous" Command="{Binding SetPreviousValueCommand}">
-                <Button.Style>
-                    <Style TargetType="local:GlowButton" BasedOn="{StaticResource GlowButtonStyle}">
-                        <Style.Triggers>
-                            <DataTrigger Binding="{Binding ListOfResults.Count}" Value="0">
-                                <Setter Property="IsEnabled" Value="False"/>
-                            </DataTrigger>
-                        </Style.Triggers>
-                    </Style>
-                </Button.Style>
-            </local:GlowButton>
+            <local:GlowButton Content="Previous" Command="{Binding SetPreviousValueCommand}"/>
         </StackPanel>
     </Grid>
 </Window>

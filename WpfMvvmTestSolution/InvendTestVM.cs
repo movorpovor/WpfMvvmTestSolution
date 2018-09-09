@@ -68,7 +68,7 @@ namespace InvendTest
         {
             ChangeModeCommand = new Command(SwitchMode, param => true);
             GenerateStringListCommand = new Command(GenerateStringList, param => true);
-            SetPreviousValueCommand = new Command(SetPreviousValue, param => true);
+            SetPreviousValueCommand = new Command(SetPreviousValue, param => ListOfResults.Any());
             _model.PropertyChanged += _model_PropertyChanged;
             _model.ResultHistory.ListChanged += ResultHistory_ListChanged; ;
         }
